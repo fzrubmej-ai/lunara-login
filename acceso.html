@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="acceso.css">
+    <link rel="stylesheet" href="html.html">
+    <link rel="stylesheet" href="styel.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==
+    " crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+</head>
+<body>
+     <div  class="topbar">
+  <div class="track">
+    <span><i class="fa-solid fa-truck" style="color: white;"></i>ENVÍO GRATIS DESDE 69€  </span>
+          <span class="para"> <i class="fa-regular fa-heart"></i> 5% PARA TU PEDIDO</span> 
+  
+    <span><i class="fa-solid fa-truck" style="color: white;"></i>ENVÍO GRATIS DESDE 69€ </span>
+            <span class="para"> <i class="fa-regular fa-heart"></i> 5% PARA TU PEDIDO</span> 
+         <span><i class="fa-solid fa-truck" style="color: white;"></i>ENVÍO GRATIS DESDE 69€  </span>
+          <span class="para"> <i class="fa-regular fa-heart"></i> 5% PARA TU PEDIDO</span> 
+  
+    <span><i class="fa-solid fa-truck" style="color: white;"></i>ENVÍO GRATIS DESDE 69€ </span>
+            <span class="para"> <i class="fa-regular fa-heart"></i> 5% PARA TU PEDIDO</span>    
+  </div>
+</div>
+   <header  >
+  <i class="fa-solid fa-bars menu-icon"></i>
+<nav class="mobile-menu">
+          <!-- <div class="menu-video"> 
+          <video autoplay muted loop playsinline >
+    <source src="videos/video2.mp4" type="video/mp4">
+</video>
+</div>-->
+<div class="mobile-header">
+  <div class="close-menu">
+
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+              <div class="logo-icon">
+          <a href="#">TWO JUNE</a>  
+        </div>
+           <div class="icon">
+     <a href="acceso.html">
+      <i class="fa-solid fa-user"></i> 
+        </a> 
+        <a href="">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        
+        <div  class="cart">
+          
+            <i class="fa-solid fa-bag-shopping"> </i>
+            <span class=" numero">0</span>
+          
+         
+        </div>
+        
+      </div>
+        
+    </div>
+        
+            <a href="#">New in</a>
+            <a href="#"> BEST SELLERES</a>
+            <a href="#"> FERIA</a>
+            <a href="#"> JOYAS</a>
+            <a href="#">COMPLEMENTOS</a>
+            <a href="#" class="SPECIAL">SPECIAL PRICES</a>
+            
+        </nav>
+ <div class="overlay"></div>
+          
+
+
+
+    <div class=" acceso-header ">
+        
+        
+        <div class="logo">
+             <!-- <i class="fa-solid fa-bars menu-icon"></i> -->
+          <a href="#">TWO JUNE</a>  
+        </div>
+        
+    </div>
+     <nav class="menu ">
+            <a href="#">New in</a>
+            <a href="#"> BEST SELLERES</a>
+            <a href="#"> FERIA</a>
+            <a href="#"> JOYAS</a>
+            <a href="#">COMPLEMENTOS</a>
+            <a href="#" class="SPECIAL">SPECIAL PRICES</a>
+            
+        </nav>
+
+  <div class="icon">
+     <a href="acceso.html">
+      <i class="fa-solid fa-user"></i> 
+        </a> 
+        <a href="buscar.html">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        
+        <div  class="cart">
+          
+            <i class="fa-solid fa-bag-shopping"> </i>
+            <span class=" numero">0</span>
+          
+         
+        </div>
+        
+      </div>
+    </header>
+     <!--javascpt  -->
+    <script>
+      const menu = document.querySelector(".mobile-menu");
+const icon = document.querySelector(".menu-icon");
+const overlay = document.querySelector(".overlay");
+
+icon.onclick = () => {
+  menu.classList.toggle("active");
+  overlay.classList.toggle("active");
+};
+    </script>
+    <script>
+
+
+overlay.onclick = () => {
+  menu.classList.remove("active");
+  overlay.classList.remove("active");
+};
+const closeMenu = document.querySelector(".close-menu");
+
+closeMenu.onclick = () => {
+    menu.classList.remove("active");
+    overlay.classList.remove("active");
+}
+</script> 
+
+<section class="login">
+    <div class="login-form">
+         
+            <div class="logo">lunara <i class="fa-solid fa-moon"></i></div>
+            <div class="tetil">
+            <h1 class="">  Welcome Back!</h1>
+            <p class="text">discover luxury jewelry and timeless elegance</p>
+            </div>
+         <form action="">
+
+<div class=" input-box">
+    
+<input type="email" name="email" id=""  placeholder="enter your email" style="letter-spacing: 2px;"  >
+</div>
+<div class="input-box">
+<input type="password" name="password" id=" msg" placeholder="enter your password" style="letter-spacing: 2px;">
+   
+</div>
+<div class="options">
+        <label for="">
+            <input type="checkbox" name="" id="">
+            remember me
+        </label>
+        <a href="#"> Forgot password?</a>
+    </div>
+    <button type="submit">log in</button>
+
+  
+         </form>
+
+
+<div class="signup">
+  
+Don’t have an account  
+<a href="#"> sign up</a>
+</div>
+</div>
+    <div class="login-image">
+        <img src="image/lunara1.jpeg" alt="">
+    </div>
+</section>
+<footer class="footer">
+
+   <div class="footer-logo">
+      <h2>LUNARA</h2>
+      <p>Luxury Jewelry Collection</p>
+   </div>
+
+   <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+   </div>
+
+   <div class="footer-social">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+   </div>
+
+   <p class="copyright">
+      © 2026 Lunara Jewelry. All Rights Reserved.
+   </p>
+
+</footer>
+</body>
+</html>
